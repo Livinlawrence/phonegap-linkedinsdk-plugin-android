@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="phonegap-linkedin-plugin"
+    version="0.2.11">
+    <name>LinkedINPlugin</name>
+    <description> This is the plugin for Linkedin in Apache Cordova/PhoneGap! created by NewAgeSys Inc.      
+      The LinkedIN plugin for Apache Cordova allows you to use the same JavaScript code in your
+      Cordova application as you use in your web application.</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,coolest</keywords>
+    <repo></repo>
+    <issue></issue>
+
+    <js-module src="linkedinConnectPlugin.js" name="LinkedINPlugin">
+        <clobbers target="LinkedINPlugin" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="LinkedINPlugin" >
+                <param name="android-package" value="com.linkedin.android.mobilesdksampleapp.LinkedINPlugin"/>
+            </feature>
+        </config-file>
+        <framework src="platforms/android/linkedin-sdk" custom="true" />
+        <!-- cordova plugin src files -->
+        <source-file src="platforms/android/src/com/linkedin/android/mobilesdksampleapp/LinkedINPlugin.java" target-dir="src/org/apache/cordova/linkedin"/>
+    </platform>
+
+</plugin>
