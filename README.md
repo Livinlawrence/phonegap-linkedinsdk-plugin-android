@@ -1,11 +1,11 @@
 # Cordova LinkedinSDK Plugin
 This is an simple Android Cordova plugin used for logging with Linkedin
-and get basic user information
+and get basic user information. The plugin is using example project from linkedin sample sdk for Android
 
 
-# Install:
+## Install:
     Assuming the PhoneGap CLI is installed, from the command line run:
-cordova plugin add https://github.com/
+`cordova plugin add https://github.com/Livinlawrence/phonegap-linkedinsdk-plugin-android`
 
 ## Linkedin Requirements and Set-Up
    To use this plugin you will need to make sure you've registered your Linkedin app with Linkedin 
@@ -19,13 +19,14 @@ A release key is required because all Android applications must be signed with o
 https://developer.linkedin.com/docs/android-sdk
 
 ## Login
-   `LinkedINPlugin.login('');`**NOTE** : You should call this function from your index.js
+   `LinkedINPlugin.login('');`
+    **NOTE** : You should call this function from your index.js
 
-   *Quering params*
+   *Quering params included in the project are:-*
    `id,first-name,last-name,maiden-name,formatted-name,site-standard-profile-request,industry,picture-url,picture-urls::(original),headline,email-address,location:(name),positions,date-of-birth`
 
 
-#License
+####License
  	Copyright 2015 Livin Lawrence
 
 	Licensed under the Apache License, Version 2.0 (the "License");

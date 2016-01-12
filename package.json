@@ -1,0 +1,26 @@
+{
+	"name": "phonegap-linkedinsdk-plugin-android",
+	"version": "1.0.0",
+	"description": "This is an simple Android Cordova plugin used for logging with Linkedin",
+	"cordova": {
+		"id": "phonegap-linkedin-plugin",
+		"platforms": [
+			"android"
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Livinlawrence/phonegap-linkedinsdk-plugin-android"
+	},
+	"keywords": [
+		"cordova",
+		"linkedin",
+		"ecosystem:cordova",
+		"cordova-android"	
+	],
+	"engines": [{
+		"name": "cordova",
+		"version": ">=3.5.0"
+	}],
+	"license": "Apache 2.0"
+}
