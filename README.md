@@ -1,4 +1,4 @@
-# Cordova LinkedinSDK Plugin-Adnroid
+# Cordova LinkedinSDK Plugin-Android
 This is an simple Android Cordova plugin used for logging with Linkedin
 and get basic user information. The plugin is using example project from linkedin sample sdk for Android
 
